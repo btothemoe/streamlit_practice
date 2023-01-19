@@ -1,9 +1,10 @@
 import streamlit as st
 
 st.set_page_config(layout="wide")
-st.title('My title')
-st.title('Lets see what we can do here!')
+st.title('WEB INVENTORY LOOKUP TOOL')
+st.write('When you’re wondering why a SKU isn’t showing up online, this tool has your back!')
 
-# Input widgets in the sidebar
+# Sidebar
 with st.sidebar:
-	st.title('My title')
+	st.title('INPUTS')
+
