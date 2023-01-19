@@ -6,7 +6,9 @@ st.write('When you’re wondering why a SKU isn’t showing up online, this tool
 
 # Sidebar
 with st.sidebar:
-	st.title('INPUTS')
+    st.title('INPUTS')
+
+with st.sidebar:
     st.text_input('Enter some text')
 
 
