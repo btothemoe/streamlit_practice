@@ -11,12 +11,12 @@ with st.sidebar:
 st.title('WEB INVENTORY LOOKUP TOOL')
 st.write('When you’re wondering why a SKU isn’t showing up online, this tool has your back!')
 
-col1, col2 = st.beta_columns((1,1))
+col1, col2 = st.columns((1,1))
 
 with col1:
     st.title('Column 1')
 
-with col4:
+with col2:
     st.title('Column 2')
 
 
