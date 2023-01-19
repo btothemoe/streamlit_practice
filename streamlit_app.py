@@ -1,5 +1,4 @@
-st.set_page_config(layout="wide")
-
 import streamlit as st
 
+st.set_page_config(layout="wide")
 st.title('My title')
